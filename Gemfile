@@ -7,7 +7,6 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'ruby', '~>2.3.4'
 gem 'rails', '~> 5.1.3'
 # Use Postresql as the database for active record
 gem 'pg', '~> 0.18'
@@ -51,9 +50,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production do
-  gem 'pg', '~> 0.18'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
