@@ -7,6 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'ruby', '~>2.3.4'
 gem 'rails', '~> 5.1.3'
 # Use Postresql as the database for active record
 gem 'pg', '~> 0.18'
